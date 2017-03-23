@@ -3,10 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/SelectRandom/src/controller/ControllerWindowMain.java</file>
-            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/SelectRandom/src/view/application.css</file>
-            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/SelectRandom/src/controller/ControllerWindowRandomTwo.java</file>
-            <file>file:/C:/Users/Leonardo/Documents/NetBeansProjects/SelectRandom/src/controller/ControllerWindowRandomOne.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/SelectRandom/src/controller/ControllerWindowMain.java</file>
+            <file>file:/C:/Users/Leonardo/Documents/SelectRandom/src/main/MainApp.java</file>
         </group>
     </open-files>
 </project-private>

@@ -12,6 +12,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
@@ -32,6 +33,7 @@ public class MainApp extends Application {
                 scene.getStylesheets().add(getClass().getResource("/view/application.css").toExternalForm());
                 primaryStage.setScene(scene);
                 primaryStage.setTitle("Random selection");
+                primaryStage.getIcons().add(new Image("/view/icon.png"));
                 primaryStage.show();
                 primaryStage.setResizable(false);
 
