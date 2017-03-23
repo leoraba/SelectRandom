@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerWindowMain">
+   <children>
+      <Label layoutX="31.0" layoutY="27.0" stylesheets="@application.css" text="List:" />
+      <TextArea fx:id="listTextArea" layoutX="31.0" layoutY="69.0" prefHeight="277.0" prefWidth="539.0" />
+      <Button fx:id="selectOneBtn" layoutX="150.0" layoutY="387.0" mnemonicParsing="false" onAction="#findOneRandom" text="Select one" />
+      <Button fx:id="selectTwoBtn" layoutX="342.0" layoutY="387.0" mnemonicParsing="false" onAction="#findTwoRandom" text="Select Two" />
+   </children>
+</AnchorPane>

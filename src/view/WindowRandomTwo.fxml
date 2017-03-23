@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="534.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerWindowRandomTwo">
+   <children>
+      <Text layoutX="57.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="emoji-text" text="The random is:" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="lbl1Name" alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="54.0" prefHeight="36.0" prefWidth="438.0" styleClass="content-area" text="[element]" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOk" cancelButton="true" defaultButton="true" layoutX="239.0" layoutY="157.0" mnemonicParsing="false" onAction="#btnOkPressed" prefHeight="25.0" prefWidth="74.0" styleClass="view.application.css" text="OK" />
+      <Label fx:id="lbl2Name" alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="95.0" prefHeight="36.0" prefWidth="438.0" styleClass="content-area" text="[element]" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
